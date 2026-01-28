@@ -48,16 +48,6 @@
 			path = iQuiz;
 			sourceTree = "<group>";
 		};
-		A51006E42F21C0C000E0E0B4 /* iQuizTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = iQuizTests;
-			sourceTree = "<group>";
-		};
-		A51006EE2F21C0C000E0E0B4 /* iQuizUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = iQuizUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				A51006CD2F21C0BF00E0E0B4 /* iQuiz */,
-				A51006E42F21C0C000E0E0B4 /* iQuizTests */,
-				A51006EE2F21C0C000E0E0B4 /* iQuizUITests */,
 				A51006CC2F21C0BF00E0E0B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				A51006E32F21C0C000E0E0B4 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				A51006E42F21C0C000E0E0B4 /* iQuizTests */,
-			);
 			name = iQuizTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				A51006ED2F21C0C000E0E0B4 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				A51006EE2F21C0C000E0E0B4 /* iQuizUITests */,
 			);
 			name = iQuizUITests;
 			packageProductDependencies = (
